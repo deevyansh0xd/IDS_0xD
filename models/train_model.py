@@ -9,6 +9,9 @@ from xlstm_model import build_xlstm_model
 def train_model():
     # Load dataset
     data = pd.read_csv('data/kddcup99.csv', header=None)
+
+
+
     
     # Columns based on KDD CUP 99 dataset
     feature_columns = list(range(41))
